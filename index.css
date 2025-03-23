@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+body{
+    background-color: #C5C1C1;
+}
+.container{
+    background-color: #DCDCDC;
+    width: 95%;
+    height: auto;
+    margin: 15px auto;
+    padding: 20px;
+}
+#about{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 30px;
+    margin: auto;
+}
+.photo{
+    width: 277px;
+    height: 600px;
+    border-radius: 41px;
+}
+.ab{
+    flex: 1;
+    font-family: 'JetBrains Mono' , monospace;
+    font-size: 20px;
+}
+.h1{
+    font-family: 'JetBrains Mono' , monospace;
+    font-size: 69px;
+    text-align: center;
+    font-weight: 700;
+}
+.project{
+    font-family: 'JetBrains Mono' , monospace;
+    font-size: 69px;
+    text-align: center;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}  
+.card{
+    width: 290px;
+    height: 500px;
+    background-color: #737373;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.cardcontainer{
+    width: 280px;
+    height: 350px;
+    background-color:#DCDCDC ;
+    border-radius: 40px;
+    flex-grow: 1;
+}
+.name{
+    font-family: 'JetBrains Mono' , monospace;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.con{
+    font-family: 'JetBrains Mono' , monospace;
+    font-size: 69px;
+    text-align: center;
+    font-weight: 700;
+}
+.data{
+    font-family: 'JetBrains Mono' , monospace;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.data a{
+    text-decoration: none;
+    color: black;
+    font-size:25px ;
+    margin: 5px 0;
+}
+.data a:hover{
+    text-decoration: underline;
+}
