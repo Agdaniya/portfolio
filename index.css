@@ -42,7 +42,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:60px;
+    gap:40px;
     flex-wrap: wrap;
     margin-top: 50px;
 }  
@@ -89,10 +89,12 @@ body{
 }
 .data a{
     text-decoration: none;
-    color: black;
+    color: rgb(92, 90, 90);
     font-size:25px ;
     margin: 5px 0;
+    transition: color 0.3s ease;
 }
 .data a:hover{
+    color: #A47864; /* Softer hover effect */
     text-decoration: underline;
 }
